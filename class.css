@@ -1,0 +1,221 @@
+html{
+      background-color: #D7EDE2;
+      width:1440px;
+      height:940px;
+      /* margin:160px 0px; */
+      box-sizing: border-box;
+      background-repeat:no-repeat;
+      z-index:1;
+}
+/*body*/
+.img{
+        position: absolute;
+        width: 1128px;
+        height: 847px;
+        left: 155px;
+        top: 40px;
+
+        background: url(med/PGWZ9901.GIF);
+        z-index:2;
+}
+/* HEAD */
+.header{
+        position: absolute;
+        width: 1440px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+        border: 1px solid #242C51;
+        background-color:  #242C51;
+        padding:20px 100px 20px 10px;
+        z-index:3;
+        text-align:center;
+}
+.logo{
+        position: absolute;
+        width: 104.51px;
+        height: 76.92px;
+        left: 20;
+        top: 20;
+        bottom: 0;
+        z-index:4;
+}
+h1{
+        position: absolute;
+        left:150;
+        top: 31.21;
+        bottom: 22.95;
+
+        font-family: Zeyada;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 50px;
+
+        color: #53C3C9;
+}
+
+/* 登入 */
+h3{
+        position: absolute;
+        left: 1100px;
+        top: 31.21;
+
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 47px;
+
+        color: #FFFFFF;
+}
+h4{
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: #000000;
+}
+.butten{
+        position: absolute;
+        right: 111px;
+        top: 55;
+        width: 244px;
+        height: 51.41px;
+        display:inline-flex;
+        justify-content:space-around;
+        align-items:center;
+
+
+        background: #F8FAF7;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+}
+
+
+/* COURSE CATALOG SYSTEM */
+
+.system{
+    position: absolute;
+    width: 229px;
+    height: 171px;
+    left: 606px;
+    top: 150px;
+
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px #242C51;
+    z-index:4;
+}
+.search{
+        position: absolute;
+        z-index:5;
+        left: 30%;
+        bottom:0%;
+}
+.list
+{       margin:-10px 30px;
+        position: absolute;
+        width:400px;
+        height:52px;
+
+        background: #FAFDFF;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 42px;
+        text-align: center;
+
+        color: #000000;
+
+}
+p{
+display:inline;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 42px;
+text-align: center;
+padding:20px;
+
+color: #F8FAF7;
+
+}
+
+.more{
+  position: absolute;
+  left:96%;
+  top: 55;
+  bottom: 95.8%;
+  width:40px;
+  height:55px;
+  z-index:4;
+
+
+}
+.funtion{
+    position: absolute;
+    width: 235px;
+    height:310px;
+    right:0px;
+    top:120px;
+
+    background: rgba(143, 147, 166, 0.8);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index:4;
+}
+a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 50px;
+    /* identical to box height, or 150% */
+    padding:20px;
+
+    letter-spacing: -0.015em;
+
+    color: #E5E5E5;
+    z-index:4;
+
+}
+.icon{
+    position: absolute;
+    padding:10px;
+    width: 25px;
+    height: 25px;
+    right:180px;
+    line-height: 50px;
+
+    z-index:6;
+
+}
+
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 868px;
+    border: 1px solid #242C51;
+    background-color:  #242C51;
+    text-align: left;
+    font-family: "Montserrat";
+    color:#ffffff;
+    font-size: 24px;
+    padding:10px 100px 10px 10px;
+    z-index:3;
+
+}

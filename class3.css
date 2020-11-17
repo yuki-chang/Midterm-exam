@@ -1,0 +1,113 @@
+html{
+      background-color: #D7EDE2;
+      width:1440px;
+      height:940px;
+      /* margin:160px 0px; */
+      box-sizing: border-box;
+      background-repeat:no-repeat;
+      z-index:1;
+}
+.educational {
+    position: absolute;
+    z-index: 5;
+    left: 30px;
+    TOP: 120px;
+}
+.list1 {
+    width:120px;
+    height:30px;
+    font-size: 20PX;
+    border: 0px;
+    color: rgba(0, 0, 0, 0.38);
+}
+.option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+
+
+.educationa3 {
+    position: absolute;
+    z-index: 5;
+    left: 290px;
+    TOP: 120px;
+}
+.list3 {
+    width:120px;
+    height:30px;
+    font-size: 20PX;
+    border:0px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.educationa4 {
+    position: absolute;
+    z-index: 5;
+    left: 420px;
+    TOP: 120px;
+}
+.list4 {
+    width:120px;
+    height:30px;
+    font-size: 20PX;
+    border:0px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.educationa2 {
+    position: absolute;
+    z-index: 5;
+    left: 160px;
+    TOP: 120px;
+}
+.list2 {
+    width:120px;
+    height:30px;
+    font-size: 20PX;
+    border:0px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.v-text-field__slot {
+    display: block;
+    display: flex;
+
+    flex: 1 1 auto;
+    z-index: 5;
+    position: absolute;
+    left: 600px;
+    TOP: 120px;
+    font-size: 20PX;
+    width:120px;
+    height:30px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.v-text-field{
+    display: block;
+    display: flex;
+
+    flex: 1 1 auto;
+    z-index: 5;
+    position: absolute;
+    left: 800px;
+    TOP: 120px;
+    font-size: 20PX;
+    width:120px;
+    height:30px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.ButtonT{
+    display: inline-block;
+    z-index: 5;
+    background-color:
+    color: inherit;
+    position: absolute;
+    left: 10px;
+    TOP: 200px;
+}
